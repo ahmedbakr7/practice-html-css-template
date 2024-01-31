@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body,html{
+    height: 100%;
+}
+
+.flex-container{
+    display: flex;
+}
+
+button{
+    transition: .6s;
+    height: 33px;
+    background: white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border: 2px solid #0060fc;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+
+nav{
+    justify-content: space-between;
+}
+
+nav h1{
+    color: #0060fc;
+}
+.navChildren{
+    margin: 25px;
+}
+
+.navButton{
+    width: 100px;
+}
+
+/* section 1 */
+
+.section1{
+    height: calc(100vh - 83px);
+}
+
+.secText{
+    margin: 100px;
+    width: 33%;
+}
+
+.secText h2{
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+}
+
+.secText p{
+    color: gray;
+    margin: 10px;
+}
+
+.buttons{
+    justify-content: space-between;
+}
+
+.buttonsChildren
+{
+    border-color: black;
+}
+
+.cardButton1{
+    width: 65%;
+}
+.cardButton2{
+    width: 25%;
+}
+
+.secImg{
+    width: 70%;
+    margin: 5px;
+    background: url(./images/Image\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* section 2 */
+.section2{
+    height: 100vh;
+    padding: 10px;
+}
+
+.section2Text{
+    padding: 0 50px;
+}
+
+.textContainer2{
+    width: 40%;    
+    margin: 100px 20px;
+}
+.flex-container2{
+    justify-content: space-between;
+}
+.cardButton3{
+    width: 100%;
+}
+.sec2Img{
+    background: url(./images/Image\ 8.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+}
+/* section3 */
+
+.sec3TextContainer{
+    width: 30%;
+    margin: 5%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec3text{
+    text-align: center;
+    
+}
+
+.sec3TextContainer .sec3text h2{
+    font-size: 50px;
+}
+
+.sec3imagecircle{
+    height: 100px;
+    width: 100px;
+    background: url(images/Group\ 229.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 7.5%;
+    margin-left: 150px;
+}
+
+.sec3image{
+    width: 30%;
+    height: 100%;
+    flex-direction: column;
+}
+.imagecirlce2{
+    position: relative;
+    left: 100px;
+}
+.sec3card{
+    margin: 0;
+}
+
+.sec3TextContainer .secText .sec3Children{
+    width: 392.83px;
+    margin: 0;
+}
+.sec3TextContainer{
+    justify-content: space-between;
+}
+.sec3buttons{
+    width: 392.83px;
+}
+.sec3button2{
+    position: relative;
+    right: 20px;
+}
+
+.sec3parag{
+    height: 50px;
+    font-size: 50px;
+}
+
+.imagecirlce4{
+    position: relative;
+    right: 100px;
+}
+
+
+button:hover{
+    background: #0060fc;
+    color: white;
+}
